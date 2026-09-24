@@ -17,3 +17,7 @@ media/fx/Screenshot 2026-05-18*.png
 media/fx/tatty.png
 desktop.ini
 Thumbs.db
+
+# Vercel build output
+public/
+.vercel/

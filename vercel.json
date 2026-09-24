@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "python3 build_static.py && mkdir -p public && cp -r index.html stage.html media static sample-notes public/",
+  "outputDirectory": "public",
+  "headers": [
+    { "source": "/stage.html", "headers": [{ "key": "Cache-Control", "value": "no-store" }] }
+  ]
+}
